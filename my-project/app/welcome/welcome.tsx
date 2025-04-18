@@ -5,7 +5,8 @@ import Home from "./components/Home";
 export function Welcome() {
   
   return (
-    <body>
+    <>
       <Header/>
-    </body>
+      <Home/>
+    </>
   )}
