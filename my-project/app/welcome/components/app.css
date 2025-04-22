@@ -5,3 +5,22 @@
 #Categorys {
     background: #FAFAFA;
 }
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#summerSale {
+    background: url("./assets/banner1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    opacity: 0.95;
+}
+
+@media screen and(max-width:800px) {
+    #summerSale {
+        background: url("./assets/Banner2.png");
+        background-repeat: no-repeat;
+        background-size: 100% 450px;
+    }
+}

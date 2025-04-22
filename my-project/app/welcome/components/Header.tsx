@@ -25,11 +25,10 @@ export default function Header() {
             <img src={Logo} alt="Logo" width={"80px"} />
           </h1>
 
-         
           <ul
             className={`flex gap-6 max-md:fixed max-md:top-0 max-md:h-screen max-md:w-[60%]
-               max-md:transition-all max-md:duration-300 max-md:p-10 max-md:flex max-md:flex-col max-md:gap-6
-            ${isMenuOpen ? "max-md:right-0" : "max-md:right-[-100%]"}`}
+               max-md:transition-all max-md:duration-300 max-md:p-10 max-md:flex max-md:flex-col max-md:gap-14
+            ${isMenuOpen ? "max-md:right-0 bg-[rgb(255,255,255,0.9)]" : "max-md:right-[-100%]"}`}
           >
             <li className="text-2xl ">
               <a href="#Home" className="underline" onClick={closeMenu}>Home</a>
